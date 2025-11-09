@@ -1,0 +1,2 @@
+- [ ] Tome como referencia esse canal: [text](https://www.youtube.com/@TiagoSalem)
+- [ ] Veja o curso: [text](https://www.youtube.com/watch?si=mJMkXg4NLQH0Opqo&v=M576WGiDBdQ&feature=youtu.be)
