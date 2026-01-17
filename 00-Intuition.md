@@ -43,14 +43,17 @@ A tecnologia utilizada por todas crypto moedas é o `blockchain`, mas cada uma d
 ## Dificuldade de Mineração e Variação do Nonce
 A dificuldade de mineração se dá ao colocarmos `ZEROS` a esquerda do `HASH` procurado, isso faz com que os numéros possiveis para *golden nonce* diminuam tornando dificeis a parte de mineração.
 ![alt text](images/image-9.png)
+
 Mas mesmo assim em poucos segundos sua maquina conseguiria testar todas as combinações possiveis descobrindo o *golden nonce* ai entra outro componente que é adicionado na geração do `HASH` o `TIMESTEMP` ele se atualiza a cada segundo tornando o trabalho ainda mais trabalhoso.
 ![alt text](images/image-10.png)
 
 ## Mining Pools
 Se a sua capacidade de processamento for pequena, pode se reunir com um grupo e trabalharem juntos, é isso que o `MINING POOL` é.
 ![alt text](images/image-11.png)
+
 Fazendo parte de um grupo de mineração você os ajuda com o que tiver a encontrar o *golden nonce*.
 
 ## Mempool
 É como um registro intermediario do que está acontecendo, suas transações que ainda não foram consolidadas em um `BLOCO` ficam no `MEMPOOL` e os mineradores decidem se ela vai entrar ou não no próximo bloco.
+
 ![alt text](images/image-12.png)
