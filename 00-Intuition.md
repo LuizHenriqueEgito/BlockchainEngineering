@@ -68,3 +68,26 @@ Fazendo parte de um grupo de mineração você os ajuda com o que tiver a encont
 É como um registro intermediario do que está acontecendo, suas transações que ainda não foram consolidadas em um `BLOCO` ficam no `MEMPOOL` e os mineradores decidem se ela vai entrar ou não no próximo bloco.
 
 ![alt text](images/image-12.png)
+
+## Transações & UTXOs
+No `Bitcoin` as transações são feitas utilizando-se **UTXOs** (Unspent Transaction Output) elas são como cedulas de dinheiro mas virtuais, dessa forma pense numa transação com a seguinte analogia:
+A tem $10,00 e deseja transferir $8,00 para B mas ele não possui troco, assim A pode entregar os $10,00 para B e pegar $2,00 de volta.
+Agora ao invés de dolares ($) pense em `Bitcoins`. A possui um UTXO que sinaliza que ele possui 10 BTCs, para enviar para B a transação cria um UTXO de 8 BTC e envia para B e um UTXO de 2 BTC e deixa com A. Dessa forma é feita a transação na rede do bitcoin.
+
+![alt text](images/image-13.png)
+
+## Carteiras
+Para descobrir seu saldo a blockchain possui os UTXOs da sua carteira, que dizem que você pode "gastar" aquele valor e **soma** todos eles, isso é seu saldo em `BTC`.
+
+![alt text](images/image-14.png)
+
+## Chaves Públicas & Privadas
+Para fazer transações é preciso ter uma carteira com chave pública e privada. A chave privada assinada a transação e a pública valida que foi a sua própria chave privada quem assinou. Dessa forma a transação pode ser concluida. Para simular a criação de **chaves públicas** & **privadas** clique [aqui](https://blockchains.web-lab.at/bc-demos/public-private-keys/keys.html).
+![alt text](images/image-15.png)
+
+## Chave Pública Vs Endereço Bitcoin
+O seu endereço de carteira básicamente é sua chave pública aplicada a uma função HASH. Isso ocorre apenas para ter mais segurança, mesmo que ela seja pública ela tem uma ligação intrinseca com sua chave privada (com ela você pode fazer tudo - "tudo" = transações) por isso essa camada extra de segurança.
+![alt text](images/image-16.png)
+
+# Smart Contracts
+## Ethereum
