@@ -91,3 +91,23 @@ O seu endereço de carteira básicamente é sua chave pública aplicada a uma fu
 
 # Smart Contracts
 ## Ethereum
+É como um "computador" distribuido para feito para, além de transações como o **bitcoin** rodar *programas* e é ai que entra os `smart contracts`. O Ethereum é *flexivel* e *programavel*. Em uma analogia simples, **bitcoin** é só uma *calculadora*, já o **ethereum** é um *smartphone* pode fazer uma série de coisas.
+
+![alt text](images/image-17.png)
+
+## Smart Contracts
+Para entender mais [Smart Contracts for Dummies](https://www.freecodecamp.org/news/smart-contracts-for-dummies-a1ba1e0b9575/). A rede social `steemit.com` está 100% na **blockchain**, o app de mensagems `status` também.
+
+![alt text](images/image-18.png)
+
+Um `smart contract` básicamente é uma **API** que funciona no blockchain.
+
+## Virtual Machine do Ethereum (EVM) & GAS
+**EVM** é um computador virutal do Ethereum que roda na maquina de quem faz parte da blockchain, dessa forma nada da EVM sai para o SO principal e nada do SO entra na EVM, isso trás mais segurança.
+
+![alt text](images/image-19.png)
+
+Já o GAS é a *gasolina* utilizada para rodar seu código em `solidity` na blockchain da Ethereum, ele consome recursos e por conta disso você deve pagar o `GAS` e criar seus códigos o mais performatico possivel.
+
+## ICOs (Oferta Inicial de Moedas)
+É como um IPO de ações mas voltada para crypto moedas, um ICO pode ser referente a um `TOKEN` ou a uma `MOEDA`.
